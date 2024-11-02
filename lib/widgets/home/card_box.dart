@@ -5,7 +5,7 @@ class CardBox extends StatelessWidget {
   final String artist;
   final String song;
 
-  const CardBox({
+  const CardBox({super.key, 
     required this.artist,
     required this.song,
   });

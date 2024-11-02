@@ -6,7 +6,7 @@ class CardFull extends StatelessWidget {
   final String description;
   final String duration;
 
-  const CardFull({
+  const CardFull({super.key, 
     required this.headline,
     required this.description,
     required this.duration,
